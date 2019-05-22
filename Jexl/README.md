@@ -19,7 +19,7 @@
 
 ## 2. Jexl
 #### 2.1. 개념
-- **`Jexl`** 는 "Poor Obfuscation Implementation"의 약자로 Commons Project의 일부입니다. Java로 작성된 응용 프로그램 및 프레임 워크에서 동적 및 스크립팅 기능의 구현을 용이하게하기위한 라이브러리입니다. Jexl은 쉘 스크립트에서 볼 수 있는 대부분의 구문을 지원하는 Jstl 표현 언어에 대한 확장을 기반으로 표현 언어를 구현합니다. 즉, **`Java에서 쉘 스크립트를 작성 및 동작할 수 있게끔 합니다.`**
+- **`Jexl`** 는 "Java EXpression Language"의 약자로 Commons Project의 일부입니다. Java로 작성된 응용 프로그램 및 프레임 워크에서 동적 및 스크립팅 기능의 구현을 용이하게하기위한 라이브러리입니다. Jexl은 쉘 스크립트에서 볼 수 있는 대부분의 구문을 지원하는 Jstl 표현 언어에 대한 확장을 기반으로 표현 언어를 구현합니다. 즉, **`Java에서 쉘 스크립트를 작성 및 동작할 수 있게끔 합니다.`**
 <br><br>
 
 #### 2.2. 사용방법
@@ -34,4 +34,7 @@
 
 #### 3.2. 참고
 - 메인 참고 : http://commons.apache.org/proper/commons-jexl/
+- https://www.youtube.com/watch?v=mmxRZZzxvBI
+- https://m.blog.naver.com/PostView.nhn?blogId=eemmjj2k&logNo=140195657917&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
 <br><br>
