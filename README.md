@@ -29,16 +29,13 @@
 <br><br><br>
 
 ## 3. 세부사항
-### 3.1 ActiveMQ
-[Apache Project ActiveMQ](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/ActiveMQ)
+### 3.1 [ActiveMQ](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/ActiveMQ)
 <br><br>
 
-### 3.2 Jexl
-[Apache Project Jexl](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/Jexl)
+### 3.2 [Jexl](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/Jexl)
 <br><br>
 
-### 3.3 Poi
-[Apache Project Poi](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/Poi)
+### 3.3 [Poi](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/Poi)
 <br><br><br>
 
 ## 4. 회고 및 참고
