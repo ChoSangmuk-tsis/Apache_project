@@ -19,7 +19,7 @@
 
 ## 2. Jexl
 #### 2.1. 개념
-- **`Jexl`** 는 "Poor Obfuscation Implementation"의 약자로 ~~~~~것입니다. 즉, **`       `**
+- **`Jexl`** 는 "Poor Obfuscation Implementation"의 약자로 ~~~~~것입니다. 즉, **`      `**
 <br><br>
 
 #### 2.2. 사용방법
