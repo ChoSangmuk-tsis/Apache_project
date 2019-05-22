@@ -31,7 +31,7 @@
 - Poi는 Java와 Office 문서들을 연결해주는 도구로 쓰일 수 있다. 
 - 예를 들면 DB의 데이터를 Java JDBC를 통해 불러온 후, Poi를 이용해서 Excel 파일로 저장 하거나, 웹 페이지 상에 테이블을 그려줄 수도 있다. 더 나아가 웹 페이지 상에 나타난 글 혹은 테이블을 Excel, Word 파일로 다운받는 기능을 추가할 수 있다.
 - DRM이 적용된 사내의 문서는 Poi를 사용하여 불러내려 할 경우, 오류가 발생한다.
-- Word, Excel 위조로 사용해 보았는데 PPT를 사용하는 방법에 대한 학습이 필요하다.
+- Word, Excel 위주로 사용해 보았는데 PPT를 사용하는 방법에 대한 학습이 필요하다.
 - Poi의 Word와 관련된 기능을 [Java 예제 문제](https://github.com/ChoSangmuk-tsis/Problem) 풀이에 적용하였다. 
 -> [적용결과](https://github.com/ChoSangmuk-tsis/Apache_Poi_Java)
 - Poi의 Excel과 관련된 기능을 Mini Project에 적용할 예정이다.
