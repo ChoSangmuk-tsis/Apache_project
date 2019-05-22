@@ -28,8 +28,8 @@
 <br><br>
 
 ### 2.2. 사용방법
-1. 해당 소스를 다운받고 Build Path에 해당 프로젝트의 소스파일을 추가합니다.
-2. 웹 프로젝트의 경우, pom.xml 파일에 dependency를 추가 합니다. dependency는 https://mvnrepository.com/ 에서 검색을 통해 추가할 수 있습니다.
+1. 해당 소스를 다운받고 Build Path에 해당 프로젝트의 소스파일을 추가합니다.<br>
+2. 웹 프로젝트의 경우, pom.xml 파일에 dependency를 추가 합니다. dependency는 https://mvnrepository.com/ 에서 검색을 통해 추가할 수 있습니다.<br>
 -> 예시) 
 ```xml
     .......
