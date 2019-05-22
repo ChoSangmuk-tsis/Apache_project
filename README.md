@@ -18,14 +18,26 @@
 
 ## 1. 개요
 ### 1.1. 프로젝트의 목적
-- 이 프로젝트는 Apache Project 학습 산출물 관리를 위한 프로젝트입니다.
+- 이 프로젝트는 **`Apache Project`** 학습 산출물 관리를 위한 프로젝트입니다.
 <br><br><br>
 
 ## 2. Apache Project
 ### 2.1. 개념
+- **`Apache Project`** 는 Apache Software Foundation (ASF)에 의해 진행되는 프로젝트로, 많은 사람들이 공통적으로 쓸만한 라이브러리를 개발하고 관리하는 프로젝트입니다.
+- 비영리 프로젝트이며, 무료로 소스를 사용할 수 있습니다. 또한 많은 개발자들에 의해 개발되는 오픈소스입니다.
 <br><br>
 
 ### 2.2. 사용방법
+1. 해당 소스를 다운받고 Build Path에 해당 프로젝트의 소스파일을 추가합니다.
+2. 웹 프로젝트의 경우, pom.xml 파일에 <dependency>를 추가 합니다. <dependency>는 https://mvnrepository.com/ 에서 검색을 통해 추가할 수 있습니다.
+```xml
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-jexl -->
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-jexl</artifactId>
+	    <version>2.1.1</version>
+	</dependency>
+```
 <br><br><br>
 
 ## 3. Project List
