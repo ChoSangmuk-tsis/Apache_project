@@ -19,7 +19,7 @@
 ## 1. 개요
 #### 1.1. 프로젝트의 목적
 - 이 프로젝트는 **`Apache Project`** 학습 산출물 관리를 위한 프로젝트입니다.
-<br><br><br>
+<br><br>
 
 ## 2. Apache Project
 #### 2.1. 개념
@@ -39,18 +39,19 @@
 	    <version>2.1.1</version>
 	</dependency>
 ```
-<br><br><br>
+<br><br>
 
 ## 3. Project List
 #### 3.1 [ActiveMQ](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/ActiveMQ)
 #### 3.2 [Jexl](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/Jexl)
 #### 3.3 [Poi](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/Poi)
-<br><br><br>
+<br><br>
 
 ## 4. 회고 및 참고
 #### 4.1. 회고
+- 유용한 프로젝트가 많으니 시간이 날때 사용해보고 어떻게 응용할 수 있을지 생각해보는 것을 추천합니다.
 <br><br>
 
 #### 4.2. 참고
 - 메인 참고 : http://www.apache.org/
-<br><br><br>
+<br><br>
