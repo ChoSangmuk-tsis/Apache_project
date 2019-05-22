@@ -5,7 +5,7 @@
 1. [개요](#1-개요)<br>
     1.1. [프로젝트의 목적](#11-프로젝트의-목적)<br>
 2. [Apache Project](#2-Apache-Project)<br>
-    2.1. [Apache Project란?](#21-Apache-Project란?)<br>
+    2.1. [Apache Project란?](#21-Apache-Project란)<br>
     2.2. [사용방법](#22-사용방법)<br>
 3. [세부사항](#3-세부사항)<br>
     3.1 [ActiveMQ](#31-ActiveMQ)<br>
@@ -22,7 +22,7 @@
 <br><br><br>
 
 ## 2. Apache Project
-### 2.1. Apache Project란?
+### 2.1. Apache Project란
 <br><br>
 
 ### 2.2. 사용방법
