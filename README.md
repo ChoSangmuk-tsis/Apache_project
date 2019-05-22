@@ -32,14 +32,12 @@
 2. 웹 프로젝트의 경우, pom.xml 파일에 dependency를 추가 합니다. dependency는 https://mvnrepository.com/ 에서 검색을 통해 추가할 수 있습니다.<br>
 ```xml
 <!--예시-->
-    <!--.......-->
 	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-jexl -->
 	<dependency>
 	    <groupId>org.apache.commons</groupId>
 	    <artifactId>commons-jexl</artifactId>
 	    <version>2.1.1</version>
 	</dependency>
-    <!--.......-->
 ```
 <br><br><br>
 
