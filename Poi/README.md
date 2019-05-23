@@ -42,4 +42,9 @@
 - https://ko.wikipedia.org/wiki/%EC%95%84%ED%8C%8C%EC%B9%98_POI
 - https://www.youtube.com/watch?v=CCgcMGdKurw
 - https://www.youtube.com/watch?v=sbBdj4zIMqY&t=1439s
+- https://poi.apache.org/apidocs/dev/org/apache/poi/xwpf/extractor/XWPFWordExtractor.html
+- https://poi.apache.org/apidocs/dev/org/apache/poi/ss/usermodel/Workbook.html
+- https://m.blog.naver.com/PostView.nhn?blogId=heoguni&logNo=130169990216&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+- https://songjihyeon.tistory.com/25
+- https://javaslave.tistory.com/79
 <br><br>
