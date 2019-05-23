@@ -42,9 +42,9 @@
 <br><br>
 
 ## 3. Project List
-#### 3.1 [ActiveMQ](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/ActiveMQ)
-#### 3.2 [Jexl](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/Jexl)
-#### 3.3 [Poi](https://github.com/ChoSangmuk-tsis/Apache_Project/tree/master/Poi)
+#### 3.1 [ActiveMQ](tree/master/ActiveMQ)
+#### 3.2 [Jexl](tree/master/Jexl)
+#### 3.3 [Poi](tree/master/Poi)
 <br><br>
 
 ## 4. 정리 및 참고
