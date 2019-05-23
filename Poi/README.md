@@ -33,7 +33,7 @@
 - DRM이 적용된 사내의 문서는 Poi를 사용하여 불러내려 할 경우, 오류가 발생한다.
 - Word, Excel 위주로 사용해 보았는데 PPT를 사용하는 방법에 대한 학습이 필요하다.
 - Poi의 Word와 관련된 기능을 [Java 예제 문제](https://github.com/ChoSangmuk-tsis/Problem) 풀이에 적용하였다. 
--> [적용결과](https://github.com/ChoSangmuk-tsis/Apache_Poi_Java)
+-> [적용결과](https://github.com/ChoSangmuk-tsis/Problem_Apache)
 - Poi의 Excel과 관련된 기능을 Mini Project에 적용할 예정이다.
 <br><br>
 
