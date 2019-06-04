@@ -23,11 +23,11 @@
 - Html : Html 은 정적인 웹피이지의 형태를 보여준다.
 - JSP : Html 에 자바 코드
 - JSTL : XML 데이터 처리와 조건문, 반복문 같은 일을 처리하기 위한 JSP 태그 라이브러리. JSP에서 자바의 각종 기능을 태그형태로 사용할 수 있도록 정의해서 사용할 수 있는 것을 말합니다.
--> ex)
+
 ```html
 <%String name = request.getParameter("name"); //앞에서 넘긴 name값을 받아서 변수에 저장%>
 ```
-대신 
+기존에 사용하던 대신 위의 코드 대신 아래와 같이 사용할 수 있습니다.
 ```html
 <body>
 당신의 이름은 ${param.name } 입니다! //EL내장객체중 자주쓰이는 객체인 param이용 index.jsp에서 name값을 바로 넘겨받아서 커스텀태그로 표현
