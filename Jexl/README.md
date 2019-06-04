@@ -8,28 +8,33 @@
 1.3. 문자열의 길이<br>
 1.4. 숫자 변환<br>
 1.5. 사용자 정의 class 와 method<br>
+1.6. 기타<br>
 2. 정리<br>
 3. 참고<br>
 
 ## 1. 간단한 Example 소스
 ### 1.1. 일반적인 연산
-- [SimpleReadDocx](Apache_JEXL/src/test/sample1.java)<br>
+- [Sample1](Apache_JEXL/src/test/sample1.java)<br>
 <br>
 
 ### 1.2. 변수사용
-- [SimpleReadDocx](Apache_JEXL/src/test/sample2.java)<br>
+- [Sample2](Apache_JEXL/src/test/sample2.java)<br>
 <br>
 
 ### 1.3. 문자열의 길이
-- [SimpleReadDocx](Apache_JEXL/src/test/sample3.java)<br>
+- [Sample3](Apache_JEXL/src/test/sample3.java)<br>
 <br>
 
 ### 1.4. 숫자 변환
-- [SimpleReadDocx](Apache_JEXL/src/test/sample4.java)<br>
+- [Sample4](Apache_JEXL/src/test/sample4.java)<br>
 <br>
 
 ### 1.5. 사용자 정의 class 와 method
-- [SimpleReadDocx](Apache_JEXL/src/test/sample5.java)<br>
+- [Sample5](Apache_JEXL/src/test/sample5.java)<br>
+<br>
+
+### 1.6. 기타
+- [Sample6](Apache_JEXL/src/test/sample5.java)<br>
 <br>
 
 ## 2. 정리
