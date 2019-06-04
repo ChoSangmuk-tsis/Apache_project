@@ -25,3 +25,6 @@
 - ActiveMQ를 이용하여 일괄처리 혹은 웹 상에서 세마포어(?)를 구현할 수 있을 것 같다.<br>
 
 ## 3. 참고
+- https://activemq.apache.org/
+- https://swiftymind.tistory.com/9
+- https://examples.javacodegeeks.com/enterprise-java/jms/apache-activemq-hello-world-example/
