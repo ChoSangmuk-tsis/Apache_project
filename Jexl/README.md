@@ -34,7 +34,7 @@
 <br>
 
 ### 1.6. 기타
-- [Sample6](Apache_JEXL/src/test/sample5.java)<br>
+- [Sample6](Apache_JEXL/src/test/sample6.java)<br>
 <br>
 
 ## 2. 정리
