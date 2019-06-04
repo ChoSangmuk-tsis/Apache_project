@@ -13,35 +13,33 @@ import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
  
 public class MessageReceiver {
- 
-    // URL of the JMS server
+
+	//default URL을 사용하게된다. 여기서는 localhost:8161 
     private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
-    // default broker URL is : tcp://localhost:61616"
- 
-    // Name of the queue we will receive messages from
+
+    // 메세지 큐의 이름을 설정하며 어떠한 이름도 사용가능하다.
     private static String subject = "JCG_QUEUE";
  
     public static void main(String[] args) throws JMSException {
-        // Getting JMS connection from the server
+    	//ActiveMQ 와 연결하는 ConnectionFactory,Connection 을 생성하고 시작한다.
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(url);
         Connection connection = connectionFactory.createConnection();
         connection.start();
- 
-        // Creating session for seding messages
+
+        //session을 생성한다.
         Session session = connection.createSession(false,
                 Session.AUTO_ACKNOWLEDGE);
- 
-        // Getting the queue 'JCG_QUEUE'
+
+        // 목적지는 새로 생성된 "Test"라는 Queue가 된다.
         Destination destination = session.createQueue(subject);
  
-        // MessageConsumer is used for receiving (consuming) messages
+        // MessageConsumer 즉, receive를 만든다.
         MessageConsumer consumer = session.createConsumer(destination);
  
-        // Here we receive the message.
+        // 메세지를 받아온다.
         Message message = consumer.receive();
  
-        // We will be using TestMessage in our example. MessageProducer sent us a TextMessage
-        // so we must cast to it to get access to its .getText() method.
+        // message 가 TextMessage 객체라면 .getText() 메소드를 통해 해당 메세지를 출력한다.
         if (message instanceof TextMessage) {
             TextMessage textMessage = (TextMessage) message;
             System.out.println("Received message '" + textMessage.getText() + "'");

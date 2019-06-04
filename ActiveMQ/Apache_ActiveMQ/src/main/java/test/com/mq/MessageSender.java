@@ -13,34 +13,33 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class MessageSender {
      
-    //URL of the JMS server. DEFAULT_BROKER_URL will just mean that JMS server is on localhost
+	//default URL을 사용하게된다. 여기서는 localhost:8161 
     private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
      
-    // default broker URL is : tcp://localhost:61616"
-    private static String subject = "JCG_QUEUE"; // Queue Name.You can create any/many queue names as per your requirement. 
+    // 메세지 큐의 이름을 설정하며 어떠한 이름도 사용가능하다.
+    private static String subject = "Test"; 
      
     public static void main(String[] args) throws JMSException {        
-        // Getting JMS connection from the server and starting it
+    	//ActiveMQ 와 연결하는 ConnectionFactory,Connection 을 생성하고 시작한다.
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(url);
         Connection connection = connectionFactory.createConnection();
         connection.start();
          
-        //Creating a non transactional session to send/receive JMS message.
+        //session을 생성한다.
         Session session = connection.createSession(false,
                 Session.AUTO_ACKNOWLEDGE);  
          
-        //Destination represents here our queue 'JCG_QUEUE' on the JMS server. 
-        //The queue will be created automatically on the server.
+        // 목적지는 새로 생성된 "Test"라는 Queue가 된다.
         Destination destination = session.createQueue(subject); 
          
-        // MessageProducer is used for sending messages to the queue.
+        // 메세지를 보내는 역을 한다.
         MessageProducer producer = session.createProducer(destination);
          
-        // We will send a small text message saying 'Hello World!!!' 
+        //server로 보낼 메세지를 설정한다.
         TextMessage message = session
                 .createTextMessage("Hello !!! Welcome to the world of ActiveMQ.");
          
-        // Here we are sending our message!
+        // 메세지를 전송한다.
         producer.send(message);
          
         System.out.println("JCG printing@@ '" + message.getText() + "'");
