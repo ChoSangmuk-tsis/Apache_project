@@ -10,11 +10,11 @@
 
 ## 1. 간단한 Example 소스
 ### 1.1. MQ에 매세지 보내기
-- [MessageSender](Apache_ActiveMQ/src⁩/main⁩/java⁩/test⁩/com⁩/⁨mq⁩/MessageSender.java)<br>
+- [MessageSender](Apache_ActiveMQ/src/main/java/test/com/mq/MessageSender.java)<br>
 <br>
 
 ### 1.2. MQ에서 메세지 읽기
-- [MessageReceiver](Apache_ActiveMQ/src⁩/main⁩/java⁩/test⁩/com⁩/⁨mq⁩/MessageReceiver.java)<br>
+- [MessageReceiver](Apache_ActiveMQ/src/main/java/test/com/mq/MessageReceiver.java)<br>
 <br>
 
 ## 2. 정리
