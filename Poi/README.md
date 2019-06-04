@@ -7,7 +7,7 @@
 1.2. Docx 파일에 덮어 쓰기<br>
 1.3. Docx 파일에 이어 쓰기<br>
 1.4. Xlsx 파일을 읽기<br>
-2. 무엇을 배웠나?<br>
+2. 정리<br>
 3. 참고<br>
 
 ## 1. 간단한 Example 소스
@@ -27,7 +27,7 @@
 - [SimpleReadXlsx](Apache_Poi/src/SimpleReadXlsx.java)<br>
 <br><br>
 
-## 2. 무엇을 배웠나? 
+## 2. 정리
 - Poi는 Java와 Office 문서들을 연결해주는 라이브러리다. 
 - 예를 들면 DB의 데이터를 Java JDBC를 통해 불러온 후, Poi를 이용해서 Excel 파일로 저장 하거나, 웹 페이지 상에 테이블을 그려줄 수도 있다. 더 나아가 웹 페이지 상에 나타난 글 혹은 테이블을 Excel, Word 파일로 다운받는 기능을 추가할 수 있다.
 - DRM이 적용된 사내의 문서는 Poi를 사용하여 불러내려 할 경우, 오류가 발생한다.

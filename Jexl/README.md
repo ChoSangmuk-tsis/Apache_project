@@ -8,7 +8,7 @@
 1.3. 문자열의 길이<br>
 1.4. 숫자 변환<br>
 1.5. 사용자 정의 class 와 method<br>
-2. 무엇을 배웠나?<br>
+2. 정리<br>
 3. 참고<br>
 
 ## 1. 간단한 Example 소스
@@ -32,7 +32,7 @@
 - [SimpleReadDocx](Apache_JEXL/src/test/sample5.java)<br>
 <br>
 
-## 2. 무엇을 배웠나?
+## 2. 정리
 - Html : Html 은 정적인 웹피이지의 형태를 보여준다.
 - JSP : Html 에 자바 코드가 더해진 형태
 - JSTL : XML 데이터 처리와 조건문, 반복문 같은 일을 처리하기 위한 JSP 태그 라이브러리. JSP에서 자바의 각종 기능을 태그형태로 사용할 수 있도록 정의해서 사용할 수 있는 것을 말합니다.

@@ -1,3 +1,5 @@
+package test.com.mq;
+
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
 import javax.jms.Destination;
