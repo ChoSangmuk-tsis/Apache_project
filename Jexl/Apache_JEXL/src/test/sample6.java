@@ -1,10 +1,10 @@
-package test1;
+package test;
 import org.apache.commons.jexl2.JexlContext;
 import org.apache.commons.jexl2.JexlEngine;
 import org.apache.commons.jexl2.UnifiedJEXL;
 import org.apache.commons.jexl2.MapContext;
 
-public class Main {
+public class sample6 {
 
 	private static JexlEngine engine = new JexlEngine();
 	private static UnifiedJEXL unified = new UnifiedJEXL(engine);
