@@ -1,3 +1,4 @@
+package test;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -21,7 +22,6 @@ public class SimpleReadDocx {
 				opc = OPCPackage.open(fis);
 				
 			} catch (InvalidFormatException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			System.out.println("\n\n\n------------------------------------\n\n\n");
